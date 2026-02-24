@@ -15,9 +15,11 @@ Route::get('hello', function () {
     return ('Hello');
 });
 
+
+Route::get('/produk', [ProdukController::class, 'index']);
 Route::get('/beranda', [BerandaController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
-Route::get('/produk', [ProdukController::class, 'index']);
 Route::get('/riwayat', [RiwayatController::class, 'index']);
+
 
