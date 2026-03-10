@@ -8,7 +8,7 @@ use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\RiwayatController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('toko');
 });
 
 Route::get('hello', function () {
